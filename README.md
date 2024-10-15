@@ -1,4 +1,4 @@
-# Texture-Holdem
+# Text_Holdem
 
 ## Description: 
 - An on-line Texas Hold'em game application that allows multiplaying using an artificial intelligence agent
@@ -62,20 +62,28 @@
 #### I made reference for you:) Please refer to the documents in [docs](https://github.com/philosucker/Text_Holdem/tree/main/docs) directory  
 ---
 ## Development Log  
+
+10.16.2024  
+- Completed design of Lobby scene
+  
+10.08.2024  
+- Improvement of server routers for WebGL Builds  
+   
+10.05.2024  
+- Completed implementation of WebSocket Connection script between Unity Client and FastAPI Server(Floor and Dealer) through BestHTTP  
+- Completed design of GoLobby scene and connection between Enter scene and GoLobby scene
   
 09.27.2024   
-- Completed Single-ton Architecture design  
-- Completed implementation of Reception server - Unity Client UI  
-- Completed implementation of HTTP connection  
+- Completed implementation of HTTP connection script between Unity Client and FastAPI Server(Reception)
+- Completed design of Enter scene
 
-  
 ### 09.23.2024 Started development of Unity application  
 
-    1. Reception-Client: application UI for sign-up, sign-in, update_nick, update_pw, delete_user 
-    2. Floor-Client: application UI for floor services, lobby services, broadcasting services
-    3. Dealer-Client: application UI for dealer services
+    1. Reception-Client : application UI for user services 
+    2. Floor-Client : application UI for floor services, lobby services, broadcasting services
+    3. Dealer-Client : application UI for dealer services
     4. HTTP, WebSocket connection : using BestHTTP 
-    5. Rendering : Images and Animations for Main scene, loading scene, lobby scene, game scene, etc.
+    5. UI Rendering : Images and Animations for scenes (Common, Enter, GoLobby, Lobby, GoTable, Table, LeaveTable)
     6. Build and Distribution test
     
 [break 09.13 ~ 09.22]  
