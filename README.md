@@ -62,10 +62,12 @@
 #### I made reference for you:) Please refer to the documents in [docs](https://github.com/philosucker/Text_Holdem/tree/main/docs) directory  
 ---
 ## Development Log  
-
-10.16.2024  
-- Completed design of Lobby scene
+10.17.2024  
+- Completed design of Table scene
   
+10.16.2024  
+- Completed design of Lobby scene  
+    
 10.08.2024  
 - Improvement of server routers for WebGL Builds  
    
